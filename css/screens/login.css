@@ -56,8 +56,6 @@
 
 .login-form .login-form__link {
   text-align: center;
-  text-decoration: none;
-  color: inherit;
   transition: opacity 0.3s ease-in-out;
   font-size: 14px;
 }
