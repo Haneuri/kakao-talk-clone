@@ -5,21 +5,27 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-components.css";
 
 /* Screen */
 @import "screens/login.css";
+@import "screens/firends.css";
 
 * {
   box-sizing: border-box;
 }
 
 body {
+  color: rgb(20, 20, 20);
   height: 1000vh;
+  padding-top: 114px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .top-fixed {
+  z-index: 1;
+  background-color: white;
   position: fixed;
   width: 100%;
   top: 0;
