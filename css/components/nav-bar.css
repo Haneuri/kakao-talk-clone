@@ -32,3 +32,13 @@
   right: -14px;
   font-size: 18px;
 }
+
+.nav .nav__dot {
+  background-color: rgb(245, 19, 19);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  right: -4px;
+  top: -4px;
+}
