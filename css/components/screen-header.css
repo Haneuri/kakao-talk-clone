@@ -13,4 +13,19 @@
 .screen-header__icons span {
   margin-left: 20px;
   font-size: 18px;
+  position: relative;
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCogAnimation 2s linear infinite;
+  will-change: transform;
+}
+
+@keyframes rotateCogAnimation {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }

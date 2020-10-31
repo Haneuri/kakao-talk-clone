@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kakao Talk</title>
+    <title>More - Kakao Talk</title>
   </head>
   <body>
     <div class="top-fixed">
@@ -23,7 +23,7 @@
         </div>
       </div>
       <header class="screen-header">
-        <h1 class="screen-header__title">Firends</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icons">
           <span><i class="fas fa-search fa-lg"></i></span>
           <span><i class="fas fa-music fa-lg"></i></span>
@@ -36,49 +36,63 @@
         </div>
       </header>
     </div>
-    <div class="friends-display">
-      <a href="#">
-        <i class="fas fa-exclamation-circle"></i>
-        Firends' Names Display
-        <i class="fas fa-chevron-right fa-xs"></i>
-      </a>
-    </div>
-    <main class="main-screen">
+    <main class="main-screen more-screen">
       <div class="user-components">
         <div class="user-components__column">
           <img
           src="https://pbs.twimg.com/profile_images/1071019720642576384/tXxHDg4H_400x400.jpg"
-          / class="user-components__avatar user-components__avatar--xl">
+          / class="user-components__avatar">
           <div class="user-components__text">
             <h4 class="user-components__title">Haneul</h4>
-            <!-- <h6 class="user-components__subtitle">Whatever subtitle</h6> -->
+            <h6 class="user-components__subtitle">
+              010-3456-4556<i class="fas fa-exclamation-circle"></i>
+            </h6>
           </div>
         </div>
-        <div class="user-components__column"></div>
+        <div class="user-components__column">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
       </div>
-      <div class="main-screen__channel">
-        <div class="main-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
+      <div class="icons">
+        <div class="icons__icon">
+          <i class="far fa-calendar-check"></i>
+          <span>Calender</span>
         </div>
-        <div class="user-components">
-          <div class="user-components__column">
-            <img
-            src="https://pbs.twimg.com/profile_images/1071019720642576384/tXxHDg4H_400x400.jpg"
-            / class="user-components__avatar user-components__avatar--sm">
-            <div class="user-components__text">
-              <h4
-                class="user-components__title user-components__title--not-bold"
-              >
-                Channel
-              </h4>
-            </div>
+        <div class="icons__icon">
+          <i class="fab fa-google-drive"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icons__icon">
+          <i class="far fa-grin-tongue-wink"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icons__icon">
+          <i class="fas fa-palette"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icons__icon">
+          <i class="far fa-user-circle"></i>
+          <span>Account</span>
+        </div>
+        <div class="icons__icon">
+          <i class="far fa-comments"></i>
+          <span>Openchat</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h1 class="more-suggestions__title">Suggestions</h1>
+        <div class="icons">
+          <div class="icons__icon">
+            <i class="fas fa-quote-right"></i>
+            <span>Kakao Story</span>
           </div>
-          <div class="user-components__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i>
-            </div>
+          <div class="icons__icon">
+            <i class="fas fa-users"></i>
+            <span>Kakao Friends</span>
+          </div>
+          <div class="icons__icon">
+            <i class="fas fa-gamepad"></i>
+            <span>Friends Gem</span>
           </div>
         </div>
       </div>
@@ -87,7 +101,7 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a href="friends.html" class="nav__link">
-            <i class="fas fa-user fa-lg"></i>
+            <i class="far fa-user fa-lg"></i>
           </a>
         </li>
         <li class="nav__btn">
@@ -109,9 +123,6 @@
         </li>
       </ul>
     </nav>
-    <div class="splash-screen">
-      <i class="fas fa-comment fa-lg"></i>
-    </div>
     <div class="screen-size">
       <span>Please reduce your the screen size.</span>
     </div>

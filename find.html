@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kakao Talk</title>
+    <title>Find - Kakao Talk</title>
   </head>
   <body>
     <div class="top-fixed">
@@ -23,10 +23,9 @@
         </div>
       </div>
       <header class="screen-header">
-        <h1 class="screen-header__title">Firends</h1>
+        <h1 class="screen-header__title">Find</h1>
         <div class="screen-header__icons">
           <span><i class="fas fa-search fa-lg"></i></span>
-          <span><i class="fas fa-music fa-lg"></i></span>
           <span>
             <div class="badge--small"></div>
             <a href="settings.html">
@@ -36,48 +35,58 @@
         </div>
       </header>
     </div>
-    <div class="friends-display">
-      <a href="#">
-        <i class="fas fa-exclamation-circle"></i>
-        Firends' Names Display
-        <i class="fas fa-chevron-right fa-xs"></i>
-      </a>
-    </div>
     <main class="main-screen">
-      <div class="user-components">
-        <div class="user-components__column">
-          <img
-          src="https://pbs.twimg.com/profile_images/1071019720642576384/tXxHDg4H_400x400.jpg"
-          / class="user-components__avatar user-components__avatar--xl">
-          <div class="user-components__text">
-            <h4 class="user-components__title">Haneul</h4>
-            <!-- <h6 class="user-components__subtitle">Whatever subtitle</h6> -->
-          </div>
+      <div class="icons">
+        <div class="icons__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>QR Code</span>
         </div>
-        <div class="user-components__column"></div>
+        <div class="icons__icon">
+          <i class="far fa-address-book"></i>
+          <span>Add by<br />Contacts</span>
+        </div>
+        <div class="icons__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icons__icon">
+          <i class="far fa-envelope"></i>
+          <span>Invite</span>
+        </div>
       </div>
-      <div class="main-screen__channel">
-        <div class="main-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Firends</h6>
+        <span>You have no recommended firends.</span>
+      </div>
+      <div class="opan-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span
+            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i
+          ></span>
         </div>
-        <div class="user-components">
-          <div class="user-components__column">
-            <img
-            src="https://pbs.twimg.com/profile_images/1071019720642576384/tXxHDg4H_400x400.jpg"
-            / class="user-components__avatar user-components__avatar--sm">
-            <div class="user-components__text">
-              <h4
-                class="user-components__title user-components__title--not-bold"
-              >
-                Channel
-              </h4>
+        <div class="open-post">
+          <div class="open-post__column">
+            <span class="open-post__title">#BTS</span>
+            <span class="open-post__hashtags">#BTS#ARMY#FRIENDS</span>
+            <div class="open-post__members">
+              <img
+                src="https://pbs.twimg.com/profile_images/1071019720642576384/tXxHDg4H_400x400.jpg"
+              />
+              <span class="open-post__members-count">802 members |</span>
+
+              <span class="open-post__members-status">Active</span>
             </div>
           </div>
-          <div class="user-components__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://pbs.twimg.com/profile_images/1071019720642576384/tXxHDg4H_400x400.jpg"
+              />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart"></i>
+                <span>365</span>
+              </div>
             </div>
           </div>
         </div>
@@ -87,7 +96,7 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a href="friends.html" class="nav__link">
-            <i class="fas fa-user fa-lg"></i>
+            <i class="far fa-user fa-lg"></i>
           </a>
         </li>
         <li class="nav__btn">
@@ -109,9 +118,6 @@
         </li>
       </ul>
     </nav>
-    <div class="splash-screen">
-      <i class="fas fa-comment fa-lg"></i>
-    </div>
     <div class="screen-size">
       <span>Please reduce your the screen size.</span>
     </div>

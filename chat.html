@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - Kakao Talk</title>
+  </head>
+  <body id="chat-screen">
+    <div class="top-fixed">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>11%</span>
+          <i class="fas fa-battery-quarter fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+      <header class="alt-screen-header">
+        <div class="alt-screen-header__column">
+          <a href="chats.html">
+            <i class="fas fa-chevron-left fa-2x"></i>
+          </a>
+          <h1>Haneul</h1>
+        </div>
+        <div class="alt-screen-header__column">
+          <i class="fas fa-search fa-2x"></i>
+          <i class="fas fa-bars fa-2x"></i>
+        </div>
+      </header>
+    </div>
+    <main class="main-screen main-chat">
+      <h4 class="chat-timestamp">Thuesday, June 30, 2020</h4>
+      <div class="chat-message">
+        <img
+          src="https://pbs.twimg.com/profile_images/1071019720642576384/tXxHDg4H_400x400.jpg"
+        />
+        <div class="chat-message__content">
+          <div class="chat-message__name">Rice</div>
+          <div class="chat-message__comment">
+            <span class="chat-message__bubble">Hi!</span>
+            <span class="chat-message__time"> 21:29 </span>
+          </div>
+        </div>
+      </div>
+      <div class="chat-message chat-message--own">
+        <div class="chat-message__content">
+          <div class="chat-message__comment">
+            <span class="chat-message__time"> 21:29 </span>
+            <span class="chat-message__bubble">Hi!</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="reply">
+      <div class="reply__column">
+        <i class="fas fa-plus-square"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a Message..." />
+        <div class="reply__icons">
+          <i class="far fa-smile-wink"></i>
+          <button class="reply__btn">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="screen-size">
+      <span>Please reduce your the screen size.</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/824e49a42d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

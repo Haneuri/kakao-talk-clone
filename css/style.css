@@ -6,10 +6,18 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/badge.css";
+@import "components/icons.css";
+@import "components/alt-screen-header.css";
+@import "components/screen-size.css";
 
 /* Screen */
 @import "screens/login.css";
 @import "screens/firends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 * {
   box-sizing: border-box;
@@ -29,4 +37,8 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
+}
+
+.main-screen {
+  padding: 0px 20px;
 }

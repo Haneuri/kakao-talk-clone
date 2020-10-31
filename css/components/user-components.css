@@ -32,7 +32,10 @@
 }
 
 .user-components__column:last-child {
-  opacity: 0.6;
+  color: rgb(134, 129, 129);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .user-components__title {
@@ -41,4 +44,19 @@
 
 .user-components__title--not-bold {
   font-weight: 400;
+}
+
+.user-components__subtitle i {
+  margin-left: 10px;
+  font-size: 18px;
+  color: rgb(236, 77, 77);
+}
+
+.user-components__time {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.more-screen .user-components__column:last-child {
+  color: rgb(20, 20, 20);
 }

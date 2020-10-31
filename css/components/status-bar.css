@@ -4,6 +4,13 @@
   padding: 4px 8px;
 }
 
+.status-bar__column:first-child {
+  margin-right: auto;
+}
+
+.status-bar__column:last-child {
+  margin-left: auto;
+}
 .status-bar .status-bar__column:first-child span {
   margin-right: 5px;
 }
@@ -12,17 +19,7 @@
   margin: 0px 4px;
 }
 
-.status-bar .status-bar__column {
-  width: 33%;
-}
-
 .status-bar .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
-}
-
-.status-bar .status-bar__column:last-child {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }

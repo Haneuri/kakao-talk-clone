@@ -1,0 +1,21 @@
+.alt-screen-header {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.alt-screen-header__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.alt-screen-header h1 {
+  margin-left: 20px;
+  font-size: 28px;
+}
+
+.alt-screen-header__column:last-child i {
+  margin-left: 20px;
+}
